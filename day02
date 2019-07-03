@@ -1,0 +1,9 @@
+进入虚拟环境:
+tarena@tarena:~$ cd blogproject_env
+tarena@tarena:~/blogproject_env$ source ./bin/activate
+(blogproject_env) tarena@tarena:~/blogproject_env$ 
+进入项目文件位置
+(blogproject_env) tarena@tarena:~/blogproject_env$ cd ../blogproject
+(blogproject_env) tarena@tarena:~/blogproject$ 
+测试是否能运行:
+(blogproject_env) tarena@tarena:~/blogproject$ python3 manage.py runserver
